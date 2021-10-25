@@ -1,0 +1,16 @@
+.page-not-found h1 {
+    font-size: $l-size;
+}
+
+.page-not-found a {
+    display: inline-block;
+    font-size: 1.5*$m-size;
+    text-decoration: none;
+    color: lighten($off-white, 8%);
+    transition: all .2s ease-in-out;
+    // text-decoration: underline;
+}
+
+.page-not-found a:hover {
+    transform: scale(1.2);
+}

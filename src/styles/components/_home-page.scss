@@ -1,0 +1,17 @@
+.home-page {
+    margin-top: $l-size;
+}
+
+.home-page__movie-quote {
+    text-align: center;
+    color: lighten($off-white, 20%);
+    text-shadow: 1px 1px 5px #111;
+    font-size: 1.2*$l-size;
+    margin: 1px;
+    font-weight: 700;
+    padding: $m-size;
+}
+
+.carousel-container {
+    margin-top: $m-size;
+}

@@ -1,0 +1,60 @@
+.search-page {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.search-page-body {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.movies-collection {
+    flex-grow: 1;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    background-color: lighten($blueish, 12%);
+  }
+
+.MuiIconButton-root {
+    color: #fff !important;
+    font-size: 20rem !important;
+    border-radius: 0;
+  }
+  
+  .MuiFab-primary {
+    color: #000 !important;
+    font-weight: bold !important;
+    // font-size: 1.4*$m-size !important;
+    font-size: $m-size !important;
+    background-color: $light-orange !important;
+
+  }
+
+  .MuiFab-secondary {
+    font-size: $l-size !important;
+  }
+  
+  .MuiSvgIcon-root {
+    font-size: $l-size !important;
+  }
+  
+  .MuiFab-sizeSmall {
+    width: 1.1*$l-size !important;
+    height: $l-size !important;
+    border-radius: 20% !important;
+  }
+
+.MuiButtonBase-root.MuiFab-root.makeStyles-fab-1.MuiFab-sizeSmall.MuiFab-primary {
+    font-size: 1.2*$m-size !important;
+}
+
+.MuiButtonBase-root.MuiFab-root.makeStyles-fab-1.MuiFab-sizeSmall {
+    font-size: .8*$m-size !important;
+}

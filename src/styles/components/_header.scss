@@ -1,0 +1,21 @@
+.header {
+    background-color: lighten($blueish, 12%);
+    padding: $m-size 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: $off-white;
+}
+
+.header__title {
+    color: white;
+    font-size: $l-size;
+    margin: 1px;
+}
+
+.header__subtitle {
+    font-size: $m-size;
+    font-weight: 500;
+    margin: 0;
+}
