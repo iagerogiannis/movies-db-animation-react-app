@@ -4,7 +4,7 @@
   "description": "React App",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/iagerogiannis/movies-db-animation-react-app"
   },
   "main": "index.js",
   "scripts": {
