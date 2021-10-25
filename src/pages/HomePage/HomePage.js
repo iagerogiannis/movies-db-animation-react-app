@@ -35,6 +35,7 @@ const HomePage = () => {
                         autoPlay={true}
                         centerMode={true}
                         infiniteLoop={true}
+                        showStatus={false}
                     >
                         {carouselItems.map((item, index) => (
                             <Link to={`movie/${item.id}`} key={index}>
