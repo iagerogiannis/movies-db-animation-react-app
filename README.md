@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Movies DB Animation is a React App created to make the search for movies easier, offering a user friendly interface with appealing animations.
+The Movies DB Animation is a React App created to make the search for movies easier, providing a user friendly interface with appealing animations.
 
 ## Installation
 
